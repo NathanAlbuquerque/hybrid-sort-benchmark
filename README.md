@@ -91,9 +91,11 @@ O valor de $n_0$ encontrado foi: **[Inserir valor, ex: 45]**.
 
 ## 👥 Autores
 
-* **[Seu Nome]**
-* **[Nome do Colega 1]**
-* **[Nome do Colega 2]**
+* **Nathan Reinaldo de Albuquerque**
+* **Jonathan Cleyber Mascarenhas Júnior**
+* **Caio Guilherme Araújo Sousa**
+* **Aloísio Souza Gonçalves**
+* **Diego Ted Rodrigues Bogea**
 
 ---
 *Trabalho desenvolvido para a disciplina de Estrutura de Dados/Análise de Algoritmos, ministrada pelo Prof. Emmanuel Silva Xavier.*
