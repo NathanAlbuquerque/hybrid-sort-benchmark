@@ -1,4 +1,5 @@
 #include "sorts.h"
+#include <stdlib.h>
 
 void insertionSort(int *arr, int n) {
     int i, j, temp;
