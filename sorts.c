@@ -71,6 +71,21 @@ void mergeSort(int *arr, int l, int r) {
     }
 }
 
+// --- HYBRID SORT (Merge + Insertion) ---
 void hybridSort(int *arr, int l, int r, int k) {
-    // Implementar aqui...
+    int tamanho_atual = r - l + 1;
+
+    if (tamanho_atual <= k) {
+        insertionSort(&arr[l], tamanho_atual);
+    } 
+    else {
+        if (l < r) {
+            int m = l + (r - l) / 2;
+
+            hybridSort(arr, l, m, k);
+            hybridSort(arr, m + 1, r, k);
+
+            merge(arr, l, m, r);
+        }
+    }
 }
