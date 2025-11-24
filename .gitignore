@@ -2,5 +2,6 @@
 *.exe
 *.out
 hybrid-benchmark
+teste_n0
 .vscode/
 .DS_Store
