@@ -7,7 +7,7 @@
 
 #define TAMANHO 10000
 #define REPETICOES 100
-#define N0_HIBRIDO 45 // Ajustar
+#define N0_HIBRIDO 175 // Ajustar
 
 typedef struct {
     double min;
