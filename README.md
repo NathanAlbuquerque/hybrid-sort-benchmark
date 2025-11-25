@@ -15,8 +15,8 @@ O código foi modularizado para facilitar a colaboração e manutenção:
 
 ## ⚙️ Algoritmos & Configuração
 
-* **Quadrático:** Insertion Sort ($O(n^2)$)
-* **Log-linear:** Merge Sort ($O(n \log n)$)
+* **Quadrático:** Insertion Sort ( $O(n²)$ )
+* **Log-linear:** Merge Sort ( $O(n log n)$ )
 * **Híbrido:** Merge Sort modificado que alterna para Insertion Sort em subvetores pequenos.
 
 ### O Fator $n_0$
@@ -71,11 +71,10 @@ Ao rodar o programa, será gerada uma tabela no terminal similar a esta:
 
 | Algoritmo | Mínimo(s) | Máximo(s) | Média(s) | Moda(s) | Desvio P. |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **Insertion** | ... | ... | ... | ... | ... |
-| **Merge** | ... | ... | ... | ... | ... |
-| **Híbrido** | ... | ... | ... | ... | ... |
-
-> *Os gráficos comparativos e a análise detalhada encontram-se na apresentação (slides) do grupo.*
+| **Insertion** | 0,000109 | 0,000305 | 0,000139 | 0,000130 | 0,000034 |
+| **Merge** | 0,006052 | 0,017014 | 0,007144 | 0,006257 | 0,001205 |
+| **Híbrido** | 0,001120 | 0,00163 | 0,001291 | 0,001138 | 0,00001 |
+> ☝️*Valores encontrados no dispositivo em que fizemos os testes. Irá variar em qualquer outro dispositivo!.*
 
 ## 👥 Autores
 
