@@ -22,9 +22,9 @@ O código foi modularizado para facilitar a colaboração e manutenção:
 ### O Fator $n_0$
 Através de testes empíricos realizados na máquina de teste, determinou-se que o ponto de cruzamento (crossover) onde o Merge Sort supera o Insertion Sort é:
 
-> **$n_0 = 175$** elementos
+> **$n_0 = 158$** elementos
 
-Este valor foi configurado no arquivo `main.c` (`#define N0_HIBRIDO 175`) para otimizar o algoritmo híbrido.
+Este valor foi configurado no arquivo `main.c` (`#define N0_HIBRIDO 158`) para otimizar o algoritmo híbrido.
 
 ## 🚀 Como Executar
 
@@ -67,14 +67,22 @@ make clean
 
 ## 📊 Resultados Esperados
 
-Ao rodar o programa, será gerada uma tabela no terminal similar a esta:
+Ao rodar o programa, será gerado tabelas no terminal similares a estas:
+> Vetor Ordenado 
 
 | Algoritmo | Mínimo(s) | Máximo(s) | Média(s) | Moda(s) | Desvio P. |
 | :--- | :---: | :---: | :---: | :---: | :---: |
 | **Insertion** | 0,000109 | 0,000305 | 0,000139 | 0,000130 | 0,000034 |
 | **Merge** | 0,006052 | 0,017014 | 0,007144 | 0,006257 | 0,001205 |
 | **Híbrido** | 0,001120 | 0,00163 | 0,001291 | 0,001138 | 0,00001 |
-> ☝️*Valores encontrados no dispositivo em que fizemos os testes. Irá variar em qualquer outro dispositivo!.*
+> Vetor Inverso
+
+| Algoritmo | Mínimo(s) | Máximo(s) | Média(s) | Moda(s) | Desvio P. |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **Insertion** | 2,386518 | 3,079592 | 2,532056 | 2,386518 | 0,167599 |
+| **Merge** | 0,005585 | 0,016663 | 0,006775 | 0,005696 | 0,001475 |
+| **Híbrido** | 0,004417 | 0,005813 | 0,004856 | 0,004596 | 0,000341 |
+> ☝️*Todos os valores acima foram encontrados no dispositivo em que fizemos os testes (Acer Aspire F5). Irá variar em qualquer outro dispositivo, dependendo de suas configurações!*
 
 ## 👥 Autores
 
