@@ -25,6 +25,7 @@ Através de testes empíricos realizados na máquina de teste, determinou-se que
 > **$n_0 = 158$** elementos
 
 Este valor foi configurado no arquivo `main.c` (`#define N0_HIBRIDO 158`) para otimizar o algoritmo híbrido.
+> Aqui você adiciona/substitui o valor do n0 encontrado em seu dispositivo
 
 ## 🚀 Como Executar
 
